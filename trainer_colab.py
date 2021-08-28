@@ -23,7 +23,7 @@ embeds = "fasttext"
 # word_embedding_keyed_vectors_path = 'D:\\deep_learning_experiments\\word_vectors_sinhala\\keyed.kv'
 word_embedding_keyed_vectors_path = folder_path + "word_embedding/"+embeds+"/source2_data_from_gosspiLanka_and_lankadeepa/"+str(EMBEDDING_SIZE)+"/keyed_vectors/keyed.kv"
 # word_embedding_matrix_path = 'D:\\deep_learning_experiments\\word_embedding_matrix'
-word_embedding_matrix_path = "/content/drive/MyDrive/FYP/Capsule Network/embedding matrix/fasttext_300_5"
+word_embedding_matrix_path = "/content/drive/MyDrive/FYP/Capsule Network/embedding matrix/fasttext_lankadeepa_gossiplanka_300_5"
 
 lankadeepa_data = pd.read_csv(lankadeepa_data_path)[:9059]
 gossipLanka_data = pd.read_csv(gossip_lanka_data_path)
